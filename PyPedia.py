@@ -58,6 +58,7 @@ class WikiPedia:
             Button(self.window,text="Go", bd=5, command = self.thread).grid(row=0, column=0, sticky = NW, pady=210, padx=500, ipady=1, ipadx=20)
             self.snip = Spinbox(self.window, from_=0, to=1000, width=10)
             self.snip.grid(row=0, column=0, sticky = NW, pady=215, padx=590, ipady=1, ipadx=20)
+            Label(self.window, text="Sentence::",font=("Helvetica",12)).grid(row=0, column=0, sticky = NW, pady=190, padx=595)
             ttk.Labelframe(self.window, width=500, height=300).grid(row=0, sticky = NW, pady=480,padx=800, column=0)
             Label(self.window, text="Information ",font=("Helvetica",18)).grid(row=0, column=0, sticky = NW, pady=500, padx=815)
             Label(self.window, text="Image  (0)(0)",font=("Helvetica",18)).grid(row=0, column=0, sticky = NW, pady=160, padx=970)
